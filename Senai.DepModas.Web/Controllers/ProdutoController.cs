@@ -8,6 +8,7 @@ namespace Senai.DepModas.Web.Controllers
 {
     public class ProdutoController : Controller
     {
+        public TYPE Type { get; set; }
         // GET: Produto
         public ActionResult Index()
         {
